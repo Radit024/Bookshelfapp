@@ -1,171 +1,403 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body, input, button {
-    font-family: 'Open Sans', sans-serif;
+body,
+input,
+button {
+  font-family: "Open Sans", sans-serif;
 }
 
-input, button {
-    font-size: 16px;
+input,
+button {
+  font-size: 16px;
 }
 
 .head_bar {
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: cornflowerblue;
-    color: white;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+  color: white;
 }
 
 main {
-    max-width: 800px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 16px;
-
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 .input_section {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    border: 1px solid black;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .input_section > h2 {
-    text-align: center;
-    color: cornflowerblue;
+  text-align: center;
+  color: cornflowerblue;
 }
 
 .input_section > form > .input {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 .input_section > form > button {
-    background-color: cornflowerblue;
-    color: white;
-    border: 0;
-    border-radius: 5px;
-    display: block;
-    width: 100%;
-    padding: 8px;
-    cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
 }
 
 .input_section > form > button > span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .input_section > form > .input > input {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
 }
 
-
 .input_section > form > .input > label {
-    color: cornflowerblue;
-    font-weight: bold;
+  color: cornflowerblue;
+  font-weight: bold;
 }
 
 .input_section > form > .input_inline {
-    margin: 12px 0;
-    display: flex;
-    align-items: center;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
 }
 
 .input_section > form > .input_inline > label {
-    color: cornflowerblue;
-    font-weight: bold;
-    margin-right: 10px;
+  color: cornflowerblue;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .search_section {
-    margin: 16px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    border: 1px solid black;
-    border-radius: 10px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .search_section > h2 {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .search_section > form {
-    padding: 16px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto 1fr 0.5fr;
-    grid-gap: 10px;
+  padding: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 0.5fr;
+  grid-gap: 10px;
 }
 
 .search_section > form > label {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .search_section > form > input {
-    padding: 5px;
-    border-radius: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .search_section > form > button {
-    background-color: cornflowerblue;
-    color: white;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .book_shelf {
-    margin: 16px 0 0 0;
-    border: 1px solid black;
-    padding: 16px;
-    border-radius: 10px;
+  margin: 16px 0 0 0;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 10px;
 }
 
 .book_shelf > h2 {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .book_shelf > .book_list {
-    padding: 16px;
+  padding: 16px;
 }
 
 .book_shelf > .book_list > .book_item {
-    padding: 8px 16px 16px 16px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10px 0;
+  padding: 8px 16px 16px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
 }
 
-.book_shelf > .book_list > .book_item > h3, p {
-    margin: 8px 0;
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
 }
 
 .book_shelf > .book_list > .book_item > .action > button {
-    border: 0;
-    padding: 5px;
-    margin: 0 5px 0 0;
-    border-radius: 5px;
-    cursor: pointer;
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .book_shelf > .book_list > .book_item > .action > .green {
-    background-color: darkgreen;
-    color: white;
+  background-color: darkgreen;
+  color: white;
 }
 
 .book_shelf > .book_list > .book_item > .action > .red {
-    background-color: darkred;
-    color: white;
+  background-color: darkred;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .blue {
+  background-color: blue;
+  color: white;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close2:hover,
+.close2:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate2 {
+  -webkit-animation: animatezoom2 0.6s;
+  animation: animatezoom2 0.6s;
+}
+
+@-webkit-keyframes animatezoom2 {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom2 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+form2 {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button-form {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.button-form:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn2 {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container2 {
+  padding: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn2 {
+    width: 100%;
+  }
 }
